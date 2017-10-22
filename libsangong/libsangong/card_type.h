@@ -1,0 +1,33 @@
+#ifndef _CARD_TYPE_H_
+#define _CARD_TYPE_H_
+
+enum CardType
+{
+	CARD_TYPE_ZERO      = 0,
+	CARD_TYPE_ONE    	= 1,
+	CARD_TYPE_TWO       = 2,
+	CARD_TYPE_THREE     = 3,
+	CARD_TYPE_FOUR      = 4,
+	CARD_TYPE_FIVE      = 5,
+	CARD_TYPE_SIX       = 6,
+	CARD_TYPE_SEVEN	    = 7,
+	CARD_TYPE_EIGHT	    = 8,
+	CARD_TYPE_NINE	    = 9,
+	CARD_TYPE_SANGONG   = 10,
+	CARD_TYPE_BAOZI		= 11,
+	CARD_TYPE_333		= 12,
+};
+
+enum CardRatio
+{
+	CARD_RATIO_LESS    = 1,
+	CARD_RATIO_EIGHT   = 2,
+	CARD_RATIO_NINE    = 3,
+	CARD_RATIO_SANGONG = 4,
+	CARD_RATIO_BAOZI   = 5,
+    CARD_RATIO_333     = 9,
+
+	CARD_RATIO_MAX = CARD_RATIO_333,
+};
+
+#endif /* _CARD_TYPE_H_ */
